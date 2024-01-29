@@ -1,0 +1,42 @@
+# Docker
+.dockerignore
+
+#volumes
+data/
+
+# Environment Files
+*.env
+
+# JSON Files
+*.json
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraformrc
+
+# Ignore logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore operating system generated files
+Thumbs.db

@@ -1,0 +1,43 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+  ingest_green_taxi:
+    build: .
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    command: ["python", "ingest_data.py", "--user", "${PGUSER}", "--password", "${PGPASSWORD}", "--host", "${PGHOST}", "--port", "${PGPORT}", "--db", "${PGDATABASE}", "--table_name", "${GREEN_TAXI_TABLE}", "--url", "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-09.csv.gz"]
+
+  ingest_taxi_zone:
+    build: .
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    command: ["python", "ingest_data.py", "--user", "${PGUSER}", "--password", "${PGPASSWORD}", "--host", "${PGHOST}", "--port", "${PGPORT}", "--db", "${PGDATABASE}", "--table_name", "${TAXI_ZONE_TABLE}", "--url", "https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv"]
+
+volumes:
+  postgres_data:
