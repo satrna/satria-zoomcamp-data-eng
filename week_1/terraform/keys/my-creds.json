@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "zoomcamp-412204",
+    "private_key_id": "2f2ea9d9dc63f819b0cbbd070eff5dd6ec3fd33c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCv0LCrUDmseVKg\nNifMR1VY6iySNLjXi3mZnQocgo46WZMy/bzujHQm5ASyAiOJdpz5Tm+XCnQW0HPZ\nH1kCgTGRngjo9QsJrBSCzwI++mdYflRQe7+BXJ6VuIc6wRl4sD5x4wXqcU/c01UG\nRgr8xtDzqqvVo4vjF990GWUJJmAo4CKxXMPgaa0vSHVPlGSVB82aOjCmVyxI5dc0\nMXxGURqafl5crD93CgkkmigjxRNKF7jlaHVfqSXapK+pwlmDSBINcYxs/c8cyCjY\n6CWYfQuyVel6+qs/aXU2+EQFZeqGCLjgEroe38m+8VeKGp3yQyhoxPkGkBfOlwPe\nBbfYEQtzAgMBAAECggEABM9f1gAG4+oZ0ZpJsnQNKLaXa5SXrgX52LMMMMV9oKkM\ntutsPNaI4vuACWK3mC4vkz6LHQXDMVCYqssJw2DHe2Vodv8lQyl7Ei0ZsaFmLGyg\nX+dS0PY4vH3k7T2VNdEUlEcSxVw+RBtgCyDlcg76boAv3VNxI1Bm46VCN2LeZJ/Z\nc6wxXkxPNMo5DgtNKzSC1agSIhOsexFZwn/b32q+nKMHiwSKCLwPr4YOnX8lCxaA\nmZUZX0JSqUW+Lc/2Aa28vyaCQ7psMCMqR9WQL0or3QuVf9XrLR0d1REbQKXLEUqE\n8qLl6W5bGJ20Vel2greCAtKp87TvAbqmkfw8pC8WGQKBgQD3qw10H6nr2UfrZLih\na9o5uskL5crD/ZGWYfUBkfn6Qs75/1DwmpmGsY7i7R4HYZsWntriPJRip2Yh5dk9\n9HIzMepYw1lmv79eEgFyB+hZaY6Wm89oXSfxLrVxrC4aVgfweZvegqFFHLmqOOVo\nddM2vAitp5BG9Mf340zVEu4XZQKBgQC1utTNeEOcDo1W6GFfJPC/rnuYqpablpjP\nnr9+8snqUXRBqbsatU4KSj8UKWiTXuoLxqrZwr/2zPU+llg24UEtr80/DQ9cJbqi\nFeEhYbLxgPgTayyLaP79OWKdjlMf2GWMsnGjvMJehB6yp53yf27XNrR5SuJNQhXS\nWWlE8N2F9wKBgQCL8jPf8iRqCJUDBh7t16uwA0OnXWl95cJmX2O6R2ohZ67cxNBP\npIwr+BjtUV8ufJDN72VvgRu3wy+K5/4hbAc7tnDdR0U1MhRIa5Q1gxJfs63GnLRO\nHJV9Sw9r9Ab5CrPhxlW1HctS6jBfZ1b599opi4a72XtFHPwBroazv8aZoQKBgHWp\n91jmElh7r5XithEFeP+S+KGbahJpSp27Ol/20Tdu7+gH/oZHd7T/56GlQfmRTda8\nFikSiHpCsFOKwqkd5bawCiNV0GkoYJPLuM2FVXg6ueTQ0rGdFOReAHTlDvsigHW9\noAiVEgBiaQHht0moqtqbp/SUwLunGzvr+lXR4ox3AoGBANWnvrMvvZM1x2vkeIVA\nlRdPi2QFu0c8irabl2Eoc/91iD/rS7jKKuLhXVbH3aXZlFPEt8MVbdikSSKp5+Zk\ncsHZuBNf8E1qCIjAxwDp5yE6/RyLDViDpIB5edEgqACRKzXPeP17P7vsRttLX8zs\nlERFP58ZcgvSGYWd3ZvwG6Gd\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform-runner@zoomcamp-412204.iam.gserviceaccount.com",
+    "client_id": "106982054532560188338",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-runner%40zoomcamp-412204.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
